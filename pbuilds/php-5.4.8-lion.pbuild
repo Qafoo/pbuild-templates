@@ -12,7 +12,7 @@ pinclude "templates/php-base"
 # configuration (cgi, cli, …)
 ##
 src_configure() {
-    cd "${S}/${PB}"
+    cd "${S}/${PP}"
     
     # Compensate a nasty bug which misses this library dependency, when builing
     # ext/intl
